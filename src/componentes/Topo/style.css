@@ -1,0 +1,50 @@
+
+.area-topo{
+    width: 100%;
+    color: white;
+    height: 70px;
+    background-color: #1D3371;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+.logo{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+    padding: 0 30px;
+}
+.logoTexto{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+}
+.menu-lista{
+    width: 200px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.opcaoMenu{
+    height: 30px;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.opcaoMenu:hover{
+    border-bottom: 3px solid white;
+}

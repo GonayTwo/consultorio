@@ -1,0 +1,14 @@
+.atendimento{
+    padding-top: 70px;
+    
+    text-align: center;
+}
+.atendimento h1{
+    font-size: 52px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #544252;
+}
+.atendimento span{
+    font-weight: bold;
+}
